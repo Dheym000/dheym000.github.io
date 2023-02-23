@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    color: #555555;
+}
+#nav{
+    text-align: right;
+    font-family: Poppins Light;
+}
+
+h2{
+    color: white;
+
+    font-family: Poppins Black;
+}
+
+h4{
+    color: white;
+
+    font-family: Poppins Light;
+
+    font-weight: bold;
+}
+
+.section{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    color: black;
+    border-top: 5px red solid;
+    border-right: 5px yellow solid;
+    border-bottom: 5px green solid;
+    border-left: 5px blue solid;
+    padding: 20px;
+
+    text-align: justify;
+
+    font-family: Poppins Light;
+
+    font-size: 13px;
+
+    line-height: 1.6em; /* para sa spacing ng text*/
+
+}
+#social {
+    color: white;
+    font-size: 15px;
+    font-family: Poppins Light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  #social a img {
+    width: 35px;
+  }
+
+  #footer{
+    font-family: Poppins Light;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    width: 200%;
+    height: 70px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  input[type="submit"] {
+    height: 30px; /* Reduce the height */
+    padding: 0 10px; /* Reduce the padding */
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 0.7rem; /* Reduce the font size */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
